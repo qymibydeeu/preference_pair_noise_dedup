@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "qymibydeeu-realtimedw_jd290"
+name = "qymibydeeu-preference_pair_noise_dedup"
 version = "0.1.0"
 description = "对内容做归一化与分片比对，找出实时数仓架构师·偏好数据的成对噪声上的重复项并按相似度归并"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://qymibydeeu.github.io"
-Repository = "https://github.com/qymibydeeu/realtimedw_jd290"
-Issues = "https://github.com/qymibydeeu/realtimedw_jd290/issues"
+Repository = "https://github.com/qymibydeeu/preference_pair_noise_dedup"
+Issues = "https://github.com/qymibydeeu/preference_pair_noise_dedup/issues"
 
 [project.scripts]
-realtimedw_jd290 = "realtimedw_jd290:main"
+preference_pair_noise_dedup = "preference_pair_noise_dedup:main"
 
 [tool.setuptools]
-py-modules = ["realtimedw_jd290"]
+py-modules = ["preference_pair_noise_dedup"]
